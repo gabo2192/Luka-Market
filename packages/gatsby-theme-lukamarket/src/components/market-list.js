@@ -6,8 +6,7 @@ const MarketList = ({ markets }) => (
     <h1>Restaurantes</h1>
     <ul>
       {markets.map((market) => (
-        <li key={market.id}>
-          {console.log(market)}
+        <li key={market.slug}>
           <strong>
             <Link to={market.slug}>{market.name}</Link>
           </strong>

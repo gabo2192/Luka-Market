@@ -1,0 +1,5 @@
+
+    const cmd = require("/Users/preprensa3/Gabriel/Luka-Market/node_modules/gatsby/dist/commands/develop-process.js");
+    const args = {"_":["develop"],"verbose":false,"no-color":false,"no-colors":false,"noColors":false,"noColor":false,"json":false,"H":"localhost","host":"localhost","p":"8000","port":61460,"c":"","cert-file":"","certFile":"","k":"","key-file":"","keyFile":"","ca-file":"","caFile":"","graphql-tracing":false,"graphqlTracing":false,"$0":"gatsby","directory":"/Users/preprensa3/Gabriel/Luka-Market/site","browserslist":[">0.25%","not dead"],"sitePackageJson":{"name":"site","version":"1.0.0","main":"index.js","author":"@gabrielrojas","license":"MIT","private":true,"scripts":{"develop":"gatsby develop","build":"gatsby build","clean":"gatsby clean"},"dependencies":{"gatsby":"^2.24.2","gatsby-theme-lukamarket":"*","react":"^16.13.1","react-dom":"^16.13.1"}},"report":{},"useYarn":false,"proxyPort":"8000","ssl":null};
+    cmd(args);
+  
