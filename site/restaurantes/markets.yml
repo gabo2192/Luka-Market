@@ -1,0 +1,63 @@
+- name: Doña Mari
+  logo: https://res.cloudinary.com/dbravos/image/upload/w_160,c_fill,ar_1:1,g_auto,r_max/v1591396087/food-market/eibvzlhu01d0l72bm4cz.png
+  phone: 929611822
+  address: Jr. Mamacona 585 Mangomarca
+  products:
+    - title: Pollo a la brasa
+      description: Magnifico pollo a la brasa
+      price: 45.50
+      picture: https://res.cloudinary.com/dbravos/image/upload/w_250,ar_16:9,c_fill,g_auto,e_sharpen/v1591397762/food-market/air2pb2l7enh7fa4hhca.jpg
+    - title: Pollo a la parrilla
+      description: Magnifico pollo a la parilla
+      price: 35.50
+      picture: https://res.cloudinary.com/dbravos/image/upload/w_250,ar_16:9,c_fill,g_auto,e_sharpen/v1591397054/food-market/xlihzreuovhd4vhedniq.jpg
+    - title: Porción de papas fritas
+      description: Magnifica porción de papas fritas muy económicas
+      price: 16.90
+      picture: https://res.cloudinary.com/dbravos/image/upload/w_250,ar_16:9,c_fill,g_auto,e_sharpen/v1591839029/food-market/uww9w7ydi5vap0xcbwow.jpg
+    - title: Porción de palta
+      description: Magnifica porción de paltas muy económicas
+      price: 16.90
+      picture: https://res.cloudinary.com/dbravos/image/upload/w_250,ar_16:9,c_fill,g_auto,e_sharpen/v1591397779/food-market/ew1coegerpskvrhbuv6q.jpg
+- name: PapaJohns
+  logo: https://res.cloudinary.com/dbravos/image/upload/w_160,c_fill,ar_1:1,g_auto,r_max/v1594508261/food-market/descarga_ivoq1j.png
+  phone: 929611822
+  address: Jr. Mamacona 585 Mangomarca
+  products:
+    - title: Pollo a la brasa
+      description: Magnifico pollo a la brasa
+      price: 45.50
+      picture: https://res.cloudinary.com/dbravos/image/upload/w_250,ar_16:9,c_fill,g_auto,e_sharpen/v1591397762/food-market/air2pb2l7enh7fa4hhca.jpg
+    - title: Pollo a la parrilla
+      description: Magnifico pollo a la parilla
+      price: 35.50
+      picture: https://res.cloudinary.com/dbravos/image/upload/w_250,ar_16:9,c_fill,g_auto,e_sharpen/v1591397054/food-market/xlihzreuovhd4vhedniq.jpg
+    - title: Porción de papas fritas
+      description: Magnifica porción de papas fritas muy económicas
+      price: 16.90
+      picture: https://res.cloudinary.com/dbravos/image/upload/w_250,ar_16:9,c_fill,g_auto,e_sharpen/v1591839029/food-market/uww9w7ydi5vap0xcbwow.jpg
+    - title: Porción de palta
+      description: Magnifica porción de paltas muy económicas
+      price: 16.90
+      picture: https://res.cloudinary.com/dbravos/image/upload/w_250,ar_16:9,c_fill,g_auto,e_sharpen/v1591397779/food-market/ew1coegerpskvrhbuv6q.jpg
+- name: Pardos
+  logo: https://res.cloudinary.com/dbravos/image/upload/w_160,c_fill,ar_1:1,g_auto,r_max/v1594508354/food-market/pardos-chicken-logo_fb_byvsix.jpg
+  phone: 929611822
+  address: Jr. Mamacona 585 Mangomarca
+  products:
+    - title: Pollo a la brasa
+      description: Magnifico pollo a la brasa
+      price: 45.50
+      picture: https://res.cloudinary.com/dbravos/image/upload/w_250,ar_16:9,c_fill,g_auto,e_sharpen/v1591397762/food-market/air2pb2l7enh7fa4hhca.jpg
+    - title: Pollo a la parrilla
+      description: Magnifico pollo a la parilla
+      price: 35.50
+      picture: https://res.cloudinary.com/dbravos/image/upload/w_250,ar_16:9,c_fill,g_auto,e_sharpen/v1591397054/food-market/xlihzreuovhd4vhedniq.jpg
+    - title: Porción de papas fritas
+      description: Magnifica porción de papas fritas muy económicas
+      price: 16.90
+      picture: https://res.cloudinary.com/dbravos/image/upload/w_250,ar_16:9,c_fill,g_auto,e_sharpen/v1591839029/food-market/uww9w7ydi5vap0xcbwow.jpg
+    - title: Porción de palta
+      description: Magnifica porción de paltas muy económicas
+      price: 16.90
+      picture: https://res.cloudinary.com/dbravos/image/upload/w_250,ar_16:9,c_fill,g_auto,e_sharpen/v1591397779/food-market/ew1coegerpskvrhbuv6q.jpg

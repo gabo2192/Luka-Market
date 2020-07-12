@@ -1,0 +1,21 @@
+/* const withDefaults = require('./src/utils/default-options')*/
+
+module.exports = ({ contentPath = 'data', basePath = '/' }) => ({
+  plugins: [
+    `gatsby-plugin-sharp`,
+    `gatsby-transformer-sharp`,
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        path: contentPath,
+      },
+    },
+    {
+      resolve: 'gatsby-transformer-yaml',
+      options: {
+        typeName: 'Market',
+      },
+    },
+    `gatsby-plugin-theme-ui`,
+  ].filter(Boolean),
+});

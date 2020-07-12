@@ -1,0 +1,19 @@
+{
+  "name": "site",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "@gabrielrojas",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "develop": "gatsby develop",
+    "build": "gatsby build",
+    "clean": "gatsby clean"
+  },
+  "dependencies": {
+    "gatsby": "^2.24.2",
+    "gatsby-theme-lukamarket": "*",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  }
+}

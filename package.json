@@ -1,0 +1,16 @@
+{
+  "name": "luka-market",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Gabriel Rojas <35940919+gabo2192@users.noreply.github.com>",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "packages/*",
+    "site"
+  ],
+  "scripts": {
+    "develop": "yarn workspace site develop",
+    "build": "yarn workspace site build"
+  }
+}
