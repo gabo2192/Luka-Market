@@ -2,7 +2,7 @@ import React from 'react';
 import { graphql, useStaticQuery } from 'gatsby';
 
 import Layout from '../components/layout';
-import MarketList from '../components/market-list';
+import MarketList from '../components/market/market-list';
 
 const MarketsTemplate = () => {
   const data = useStaticQuery(graphql`

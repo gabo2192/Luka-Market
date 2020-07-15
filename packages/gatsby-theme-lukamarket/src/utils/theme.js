@@ -51,6 +51,7 @@ export const theme = {
     heading: 900,
     bold: 700,
   },
+  radii: [8, 16, 32],
   sizes: {
     default: '90vw',
   },
@@ -73,13 +74,26 @@ export const theme = {
       m: 0,
     },
   },
+  button: {
+    navigation: {
+      bg: 'primary',
+      color: 'text',
+      fontSize: 4,
+      textTransform: 'uppercase',
+      fontFamily: 'heading',
+      fontWeight: 'heading',
+      p: 2,
+    },
+  },
   layout: {
     header: {
+      position: 'relative',
       bg: 'primary',
       color: 'text',
       height: '64px',
       display: 'flex',
       p: 3,
+      zIndex: '200',
       justifyContent: 'space-between',
       h1: {
         variant: 'text.heading',
@@ -94,9 +108,58 @@ export const theme = {
         cursor: 'pointer',
       },
     },
+    footer: {
+      display: 'flex',
+      justifyContent: 'space-around',
+      width: '100%',
+      a: {
+        display: 'flex',
+        flexDirection: 'column',
+        alignItems: 'center',
+        fontSize: 0,
+        textDecoration: 'none',
+        textTransform: 'uppercase',
+        color: 'light.0',
+        fontWeight: 'body',
+        fontFamily: 'heading',
+        width: 'fit-content',
+        transition: '200ms',
+
+        '&:hover, &:active': {
+          color: 'primary',
+        },
+      },
+    },
+    nav: {
+      display: 'grid',
+      gridTemplateColumns: '1fr',
+      gridGap: 4,
+      alignItems: ['center', 'flex-start'],
+      textAlign: ['center', 'left'],
+      gridAutoRows: '56px',
+      a: {
+        fontSize: 4,
+        textDecoration: 'none',
+        textTransform: 'uppercase',
+        lineHeight: '56px',
+        color: 'dark.3',
+        fontWeight: 'heading',
+        fontFamily: 'heading',
+        width: '100%',
+        transition: '200ms',
+        borderRadius: 0,
+        px: 3,
+
+        '&:hover': {
+          bg: 'primary',
+        },
+      },
+    },
     main: {
       width: 'default',
       mx: 'auto',
+      pb: [5, null, 0],
+      overflowX: 'hidden',
     },
   },
 };

@@ -1,7 +1,7 @@
 import React from 'react';
 import { graphql } from 'gatsby';
 import Layout from '../components/layout';
-import Market from '../components/market';
+import Market from '../components/market/market';
 
 export const query = graphql`
   query($marketID: String!) {
@@ -21,10 +21,12 @@ export const query = graphql`
   }
 `;
 
-const MarketTemplate = ({ data: { market } }) => (
-  <Layout>
-    <Market {...market} />
-  </Layout>
-);
+const MarketTemplate = ({ data: { market } }) => {
+  return (
+    <Layout>
+      <Market {...market} />
+    </Layout>
+  );
+};
 
 export default MarketTemplate;
